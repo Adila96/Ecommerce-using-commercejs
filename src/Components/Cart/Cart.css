@@ -1,0 +1,49 @@
+.parentCartContainer{
+    margin-bottom: 20px;
+}
+.cartDetails{
+    display: flex;
+}
+.cardsCart{
+    margin-left: 200px;
+}
+.cardsCart .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+.cardsCart .card img{
+    width: 200px;
+    margin-right: 50px;
+}
+.card .productName{
+    margin-right: 100px;
+    width: 200px
+
+}
+.cardsCart .card button{
+    border-radius: 7px;
+    cursor: pointer;
+}
+.payment{
+    align-self: flex-end;
+    margin-left: 550px;
+}
+.cartBtns{
+    display: flex;
+    gap: 30px;
+    margin-left: 370px;
+}
+.cartBtns button{
+    width: 175px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+    

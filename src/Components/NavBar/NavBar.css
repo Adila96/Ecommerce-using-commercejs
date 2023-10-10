@@ -1,0 +1,29 @@
+.menuBar {
+  padding-top: 5em;
+  display: flex;
+  padding-left: 10px;
+}
+
+.menuBar .categoryMenu {
+  display: flex;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.menuBar .categoryMenu span {
+  margin-right: 16px;
+  font-weight: bolder;
+}
+
+.menuBar .otherQuickOptions {
+  display: flex;
+}
+
+.menuBar .otherQuickOptions div {
+  padding: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+
+.menuBar .otherQuickOptions div:hover {
+  border: 1px solid black;
+}
